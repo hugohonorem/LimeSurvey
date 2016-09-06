@@ -4,7 +4,7 @@
  */
 ?>
 <?php PrepareEditorScript(true, $this); ?>
-<?php if($eqrow['title']) {$sPattern="^([a-zA-Z][a-zA-Z0-9]*|{$eqrow['title']})$";}else{$sPattern="^[a-zA-Z][a-zA-Z0-9]*$";} ?>
+<?php if($eqrow['title']) {$sPattern="^([a-zA-Z][a-zA-Z0-9_]*|{$eqrow['title']})$";}else{$sPattern="^[a-zA-Z][a-zA-Z0-9_]*$";} ?>
 
 <!-- New question language tabs -->
 <ul class="nav nav-tabs" style="margin-right: 8px;" >
